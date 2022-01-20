@@ -1,16 +1,18 @@
-# This is a sample Python script.
+import json
+from Data import Data
+from Schedule import Schedule
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    availabilityFile = open('data/dostepnosci.json', "r")
+    availability = json.loads(availabilityFile.read())
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    workersFile = open('data/pracownicy.json', "r")
+    workers = json.loads(workersFile.read())
+
+    studentsFile = open('data/studenci.json', "r")
+    students = json.loads(studentsFile.read())
+
+    data = Data(availability, workers, students)
+
+    schedule = Schedule(data)
+    schedule.initialize()

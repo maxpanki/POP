@@ -1,50 +1,51 @@
-{"numerOsoby": 1001, "imie_nazwisko": "Eleonora Kamińska", "role": ["Przewodniczacy"] }
-{"numerOsoby": 1002, "imie_nazwisko": "Kaja Kozłowska","role": ["Przewodniczacy"] }
-{"numerOsoby": 1003, "imie_nazwisko": "Bronisław Zieliński", "role": ["Przewodniczacy"] }
-{"numerOsoby": 1004, "imie_nazwisko": "Ksawery Chmielewski", "role": ["Przewodniczacy"] }
-{"numerOsoby": 1005, "imie_nazwisko": "Daniel Brzeziński", "role": ["Przewodniczacy"] }
-{"numerOsoby": 1006, "imie_nazwisko": "Ada Szewczyk", "role": ["recenzent", "Czlonek komisji"] }
-{"numerOsoby": 1007, "imie_nazwisko": "Edward Makowski", "role": ["opiekun", "recenzent", "Czlonek komisji"] }
-{"numerOsoby": 1008, "imie_nazwisko": "Luiza Włodarczyk","role": ["Czlonek komisji"] }
-{"numerOsoby": 1009, "imie_nazwisko": "Ada Adamska", "role": ["Czlonek komisji"] }
-{"numerOsoby": 1010, "imie_nazwisko": "Oktawian Walczak", "role": ["Czlonek komisji"] }
-{"numerOsoby": 1011, "imie_nazwisko": "Kuba Jaworski", "role": ["recenzent", "Czlonek komisji"] }
-{"numerOsoby": 1012, "imie_nazwisko": "Błażej Baran", "role": ["Czlonek komisji"] }
-{"numerOsoby": 1013, "imie_nazwisko": "Judyta Jakubowska", "role": ["opiekun"] }
-{"numerOsoby": 1014, "imie_nazwisko": "Janusz Witkowski", "role": ["recenzent", "Czlonek komisji"] }
-{"numerOsoby": 1015, "imie_nazwisko": "Cezary Nowak", "role": ["opiekun", "recenzent", "Czlonek komisji"] }
-{"numerOsoby": 1016, "imie_nazwisko": "Ada Baranowska", "role": ["opiekun", "recenzent"] }
-{"numerOsoby": 1017, "imie_nazwisko": "Konstanty Kołodziej", "role": ["opiekun", "recenzent", "Czlonek komisji"] }
-{"numerOsoby": 1018, "imie_nazwisko": "Piotr Sikora", "role": ["Czlonek komisji"] }
-{"numerOsoby": 1019, "imie_nazwisko": "Dominik Jankowski", "role": ["recenzent", "Czlonek komisji"] }
-{"numerOsoby": 1020, "imie_nazwisko": "Cyprian Kalinowski", "role": ["opiekun", "recenzent"] }
-{"numerOsoby": 1021, "imie_nazwisko": "Emilia Krawczyk", "role": ["opiekun"] }
-{"numerOsoby": 1022, "imie_nazwisko": "Andrzej Głowacki", "role": ["recenzent"] }
-{"numerOsoby": 1023, "imie_nazwisko": "Bartłomiej Sikorski", "role": ["opiekun"] }
-{"numerOsoby": 1024, "imie_nazwisko": "Anatolia Mazur", "role": ["opiekun"] }
-{"numerOsoby": 1025, "imie_nazwisko": "Leszek Walczak", "role": ["opiekun", "recenzent", "Czlonek komisji"] }
-{"numerOsoby": 1026, "imie_nazwisko": "Łukasz Andrzejewski", "role": ["Czlonek komisji"] }
-{"numerOsoby": 1027, "imie_nazwisko": "Remigiusz Witkowski", "role": ["opiekun"] }
-{"numerOsoby": 1028, "imie_nazwisko": "Martin Nowak", "role": ["opiekun"] }
-{"numerOsoby": 1029, "imie_nazwisko": "Sylwia Przybylska", "role": ["opiekun", "recenzent"] }
-{"numerOsoby": 1030, "imie_nazwisko": "Dariusz Lewandowski", "role": ["Czlonek komisji"] }
-{"numerOsoby": 1031, "imie_nazwisko": "Paweł Cieślak", "role": ["recenzent, "Czlonek komisji"] }
-{"numerOsoby": 1032, "imie_nazwisko": "Konstancja Wysocka", "role": ["opiekun", "recenzent"] }
-{"numerOsoby": 1033, "imie_nazwisko": "Nikola Pietrzak", "role": ["recenzent", "Czlonek komisji"] }
-{"numerOsoby": 1034, "imie_nazwisko": "Konrad Szulc", "role": ["Czlonek komisji"] }
-{"numerOsoby": 1035, "imie_nazwisko": "Natan Wiśniewski", "role": ["opiekun"] }
-{"numerOsoby": 1036, "imie_nazwisko": "Beata Sikorska", "role": ["Czlonek komisji"] }
-{"numerOsoby": 1037, "imie_nazwisko": "Adam Wojciechowski", "role": ["Czlonek komisji"] }
-{"numerOsoby": 1038, "imie_nazwisko": "Ireneusz Jakubowski", "role": ["Czlonek komisji"] }
-{"numerOsoby": 1039, "imie_nazwisko": "Igor Woźniak", "role": ["opiekun", "recenzent", "Czlonek komisji"] }
-{"numerOsoby": 1040, "imie_nazwisko": "Kinga Michalak", "role": ["opiekun", "recenzent", "Czlonek komisji"] }
-{"numerOsoby": 1041, "imie_nazwisko": "Patryk Stępień", "role": ["opiekun"] }
-{"numerOsoby": 1042, "imie_nazwisko": "Kajetan Michalak", "role": ["Czlonek komisji"] }
-{"numerOsoby": 1043, "imie_nazwisko": "Kacper Wróblewski", "role": ["opiekun", "recenzent"] }
-{"numerOsoby": 1044, "imie_nazwisko": "Ewelina Kubiak", "role": ["opiekun"] }
-{"numerOsoby": 1045, "imie_nazwisko": "Bartosz Kubiak", "role": ["opiekun", "recenzent"] }
-{"numerOsoby": 1046, "imie_nazwisko": "Ksawery Mróz", "role": ["Czlonek komisji"] }
-{"numerOsoby": 1047, "imie_nazwisko": "Wanda Wróblewska", "role": ["recenzent", "Czlonek komisji"] }
-{"numerOsoby": 1048, "imie_nazwisko": "Alex Sobczak", "role": ["Czlonek komisji"] }
-{"numerOsoby": 1049, "imie_nazwisko": "Zuzanna Zalewska", "role": ["recenzent", "Czlonek komisji"] }
-{"numerOsoby"": 1050, "imie_nazwisko": "Kamil Mazurek", "role": ["opiekun", "recenzent", "Czlonek komisji"] }
+[{"numerOsoby": 1001, "imie_nazwisko": "Eleonora Kamińska", "role": ["Przewodniczacy"] },
+{"numerOsoby": 1002, "imie_nazwisko": "Kaja Kozłowska","role": ["Przewodniczacy"] },
+{"numerOsoby": 1003, "imie_nazwisko": "Bronisław Zieliński", "role": ["Przewodniczacy"] },
+{"numerOsoby": 1004, "imie_nazwisko": "Ksawery Chmielewski", "role": ["Przewodniczacy"] },
+{"numerOsoby": 1005, "imie_nazwisko": "Daniel Brzeziński", "role": ["Przewodniczacy"] },
+{"numerOsoby": 1006, "imie_nazwisko": "Ada Szewczyk", "role": ["recenzent", "Czlonek komisji"] },
+{"numerOsoby": 1007, "imie_nazwisko": "Edward Makowski", "role": ["opiekun", "recenzent", "Czlonek komisji"] },
+{"numerOsoby": 1008, "imie_nazwisko": "Luiza Włodarczyk","role": ["Czlonek komisji"] },
+{"numerOsoby": 1009, "imie_nazwisko": "Ada Adamska", "role": ["Czlonek komisji"] },
+{"numerOsoby": 1010, "imie_nazwisko": "Oktawian Walczak", "role": ["Czlonek komisji"] },
+{"numerOsoby": 1011, "imie_nazwisko": "Kuba Jaworski", "role": ["recenzent", "Czlonek komisji"] },
+{"numerOsoby": 1012, "imie_nazwisko": "Błażej Baran", "role": ["Czlonek komisji"] },
+{"numerOsoby": 1013, "imie_nazwisko": "Judyta Jakubowska", "role": ["opiekun"] },
+{"numerOsoby": 1014, "imie_nazwisko": "Janusz Witkowski", "role": ["recenzent", "Czlonek komisji"] },
+{"numerOsoby": 1015, "imie_nazwisko": "Cezary Nowak", "role": ["opiekun", "recenzent", "Czlonek komisji"] },
+{"numerOsoby": 1016, "imie_nazwisko": "Ada Baranowska", "role": ["opiekun", "recenzent"] },
+{"numerOsoby": 1017, "imie_nazwisko": "Konstanty Kołodziej", "role": ["opiekun", "recenzent", "Czlonek komisji"] },
+{"numerOsoby": 1018, "imie_nazwisko": "Piotr Sikora", "role": ["Czlonek komisji"] },
+{"numerOsoby": 1019, "imie_nazwisko": "Dominik Jankowski", "role": ["recenzent", "Czlonek komisji"] },
+{"numerOsoby": 1020, "imie_nazwisko": "Cyprian Kalinowski", "role": ["opiekun", "recenzent"] },
+{"numerOsoby": 1021, "imie_nazwisko": "Emilia Krawczyk", "role": ["opiekun"] },
+{"numerOsoby": 1022, "imie_nazwisko": "Andrzej Głowacki", "role": ["recenzent"] },
+{"numerOsoby": 1023, "imie_nazwisko": "Bartłomiej Sikorski", "role": ["opiekun"] },
+{"numerOsoby": 1024, "imie_nazwisko": "Anatolia Mazur", "role": ["opiekun"] },
+{"numerOsoby": 1025, "imie_nazwisko": "Leszek Walczak", "role": ["opiekun", "recenzent", "Czlonek komisji"] },
+{"numerOsoby": 1026, "imie_nazwisko": "Łukasz Andrzejewski", "role": ["Czlonek komisji"] },
+{"numerOsoby": 1027, "imie_nazwisko": "Remigiusz Witkowski", "role": ["opiekun"] },
+{"numerOsoby": 1028, "imie_nazwisko": "Martin Nowak", "role": ["opiekun"] },
+{"numerOsoby": 1029, "imie_nazwisko": "Sylwia Przybylska", "role": ["opiekun", "recenzent"] },
+{"numerOsoby": 1030, "imie_nazwisko": "Dariusz Lewandowski", "role": ["Czlonek komisji"] },
+{"numerOsoby": 1031, "imie_nazwisko": "Paweł Cieślak", "role": ["recenzent", "Czlonek komisji"] },
+{"numerOsoby": 1032, "imie_nazwisko": "Konstancja Wysocka", "role": ["opiekun", "recenzent"] },
+{"numerOsoby": 1033, "imie_nazwisko": "Nikola Pietrzak", "role": ["recenzent", "Czlonek komisji"] },
+{"numerOsoby": 1034, "imie_nazwisko": "Konrad Szulc", "role": ["Czlonek komisji"] },
+{"numerOsoby": 1035, "imie_nazwisko": "Natan Wiśniewski", "role": ["opiekun"] },
+{"numerOsoby": 1036, "imie_nazwisko": "Beata Sikorska", "role": ["Czlonek komisji"] },
+{"numerOsoby": 1037, "imie_nazwisko": "Adam Wojciechowski", "role": ["Czlonek komisji"] },
+{"numerOsoby": 1038, "imie_nazwisko": "Ireneusz Jakubowski", "role": ["Czlonek komisji"] },
+{"numerOsoby": 1039, "imie_nazwisko": "Igor Woźniak", "role": ["opiekun", "recenzent", "Czlonek komisji"] },
+{"numerOsoby": 1040, "imie_nazwisko": "Kinga Michalak", "role": ["opiekun", "recenzent", "Czlonek komisji"] },
+{"numerOsoby": 1041, "imie_nazwisko": "Patryk Stępień", "role": ["opiekun"] },
+{"numerOsoby": 1042, "imie_nazwisko": "Kajetan Michalak", "role": ["Czlonek komisji"] },
+{"numerOsoby": 1043, "imie_nazwisko": "Kacper Wróblewski", "role": ["opiekun", "recenzent"] },
+{"numerOsoby": 1044, "imie_nazwisko": "Ewelina Kubiak", "role": ["opiekun"] },
+{"numerOsoby": 1045, "imie_nazwisko": "Bartosz Kubiak", "role": ["opiekun", "recenzent"] },
+{"numerOsoby": 1046, "imie_nazwisko": "Ksawery Mróz", "role": ["Czlonek komisji"] },
+{"numerOsoby": 1047, "imie_nazwisko": "Wanda Wróblewska", "role": ["recenzent", "Czlonek komisji"] },
+{"numerOsoby": 1048, "imie_nazwisko": "Alex Sobczak", "role": ["Czlonek komisji"] },
+{"numerOsoby": 1049, "imie_nazwisko": "Zuzanna Zalewska", "role": ["recenzent", "Czlonek komisji"] },
+{"numerOsoby": 1050, "imie_nazwisko": "Kamil Mazurek", "role": ["opiekun", "recenzent", "Czlonek komisji"] }
+]
