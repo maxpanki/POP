@@ -9,6 +9,13 @@ class Event:
         self.memCom = None
         self.meetingTime = None
 
+    def checkIfHasTime(self, worker, availability):
+        workerTime = next((x for x in availability if x['numer_osoby'] == worker), None)
+        if workerTime['dostepnosci'][self.meetingTime] == 1:
+            return True
+        else:
+            return False
+
     def get_student(self): return self.student
     def get_promoter(self): return self.promoter
     def get_id(self): return self.id

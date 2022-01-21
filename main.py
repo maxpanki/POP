@@ -1,6 +1,7 @@
 import json
 from Data import Data
 from Schedule import Schedule
+from GeneticAlgoritm import GA
 
 if __name__ == '__main__':
     availabilityFile = open('data/dostepnosci.json', "r")
@@ -14,5 +15,12 @@ if __name__ == '__main__':
 
     data = Data(availability, workers, students)
 
-    schedule = Schedule(data)
-    schedule.initialize()
+    firstGeneration = []
+    for x in range(10):
+        schedule = Schedule(data)
+        firstGeneration.append(schedule.initialize())
+    ga = GA(firstGeneration, 5, 10, 5)
+    ga.checkIfBetter()
+    print('-----------------------------------------------')
+    ga.crossOver()
+
