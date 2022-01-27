@@ -19,6 +19,10 @@ class Schedule:
     def get_numbOfEvents(self): return self.numbOfEvents
     def get_isFitnessChanged(self): return self.isFitnessChanged
 
+    def set_numbOfConflicts(self, val): self.numbOfConflicts = val
+    def set_events(self, val): self.events = val
+
+
     def calculate_fitness(self):
         events = self.get_events()
         availability = self.data.get_availability()
@@ -28,16 +32,16 @@ class Schedule:
             promoter = event_i.get_promoter()
             if not event_i.checkIfHasTime(promoter, availability):
                 self.numbOfConflicts += 1
+                print('A')
             reviewer = event_i.get_reviewer()
             if not event_i.checkIfHasTime(reviewer, availability):
                 self.numbOfConflicts += 1
+                print('A')
             memCom = event_i.get_memCom()
             for mem in memCom:
                 if not event_i.checkIfHasTime(mem, availability):
                     self.numbOfConflicts += 1
-
-            print('First pass')
-            print(self.numbOfConflicts)
+                    print('A')
 
             a = [promoter, reviewer, *memCom]
             seen = set()
@@ -48,18 +52,12 @@ class Schedule:
                 else:
                     seen.add(x)
             self.numbOfConflicts += len(dupes)
-            print('Second pass')
-            print(self.numbOfConflicts)
+            print('some B')
             for event_j in events:
                 if event_i.get_id() != event_j.get_id():
                     if event_j.get_meetingTime() == event_i.get_meetingTime():
-                        print('Conflict')
-                        print(event_j.get_student())
-                        print(event_i.get_student())
-                        self.numbOfConflicts += 1
-                        print('Third pass')
-                        print(self.numbOfConflicts)
-
+                        self.numbOfConflicts += 2
+                        print('C')
         if self.numbOfConflicts > 0:
             fitness = 1 / (1.0 * self.numbOfConflicts)
             self.fitness = fitness
@@ -118,9 +116,6 @@ class Schedule:
                 if currentStudentFreeTime['dostepnosci'][currentTimeSlot] == currentPromoterFreeTime['dostepnosci'][currentTimeSlot] == currentReviewerFreeTime['dostepnosci'][currentTimeSlot]:
                     commonFreeHours.append(currentTimeSlot)
                 currentTimeSlot = str(round(float(currentTimeSlot) + 0.1, 1))
-            print('Common Free hours for ')
-            print(student['numer_osoby'])
-            print(*commonFreeHours)
             seed(time.time())
             choosenTimeSlot = commonFreeHours[randint(0, len(commonFreeHours) - 1)]
             newEvent.set_meetingTime(choosenTimeSlot)
@@ -138,13 +133,8 @@ class Schedule:
                 if currentMemComTimeslots['dostepnosci'][choosenTimeSlot] == 1:
                     tempMemComArray.append(memCom['numerOsoby'])
 
-            for x in range(3):
+            for x in range(1):
                 rand = randint(0, len(tempMemComArray) - 1)
-                print('Rand')
-                print(rand)
-                print('temp')
-                print(tempMemComArray)
-                print(len(tempMemComArray))
                 memComAcceptedArray.append(tempMemComArray[rand])
 
             newEvent.set_czlKom(memComAcceptedArray)

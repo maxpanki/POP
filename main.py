@@ -16,11 +16,21 @@ if __name__ == '__main__':
     data = Data(availability, workers, students)
 
     firstGeneration = []
-    for x in range(10):
+    for x in range(50):
         schedule = Schedule(data)
         firstGeneration.append(schedule.initialize())
-    ga = GA(firstGeneration, 5, 10, 5)
-    ga.checkIfBetter()
-    print('-----------------------------------------------')
-    ga.crossOver()
+    ga = GA(firstGeneration, 40, 50, 20)
+    while ga.get_bestSchedule().get_finess() < 1 or ga.get_epoch() < 5000:
+        ga.checkIfBetter()
+        print('k')
+        print(ga.get_bestSchedule().get_numbOfConflicts())
+        print('k')
+        print(ga.get_bestSchedule().get_finess())
+        print('-----------------------------------------------')
+        ga.crossOver()
+        ga.next_epoch()
+    print('*|*|*|*|*|*|*|*|*|*|*|*|')
+    print(ga.get_bestSchedule().get_finess())
+    print('*|*|*|*|*|*|*|*|*|*|*|*|')
+
 
