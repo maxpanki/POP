@@ -20,7 +20,7 @@ if __name__ == '__main__':
         schedule = Schedule(data)
         firstGeneration.append(schedule.initialize())
     ga = GA(firstGeneration, 40, 50, 20)
-    while ga.get_bestSchedule().get_finess() < 1 or ga.get_epoch() < 5000:
+    while ga.get_bestSchedule().get_finess() < 1 or ga.get_epoch() < 100:
         ga.checkIfBetter()
         print('k')
         print(ga.get_bestSchedule().get_numbOfConflicts())
