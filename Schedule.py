@@ -22,6 +22,11 @@ class Schedule:
     def set_numbOfConflicts(self, val): self.numbOfConflicts = val
     def set_events(self, val): self.events = val
 
+    def print(self):
+        eventsSorted = sorted(self.get_events(), key=lambda x: ord(x.get_meetingTime()[0])*10+ord(x.get_meetingTime()[2]), reverse=False)
+        for event in eventsSorted:
+            event.print()
+
 
     def calculate_fitness(self):
         events = self.get_events()
