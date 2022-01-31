@@ -2,6 +2,8 @@ import json
 from Data import Data
 from Schedule import Schedule
 from GeneticAlgoritm import GA
+from experiment import experiments
+from experiment import experiment
 
 if __name__ == '__main__':
     availabilityFile = open('data/dostepnosci.json', "r", encoding="utf-8")
@@ -15,24 +17,10 @@ if __name__ == '__main__':
 
     data = Data(availability, workers, students)
 
-    firstGeneration = []
-    for x in range(50):
-        schedule = Schedule(data)
-        firstGeneration.append(schedule.initialize())
-    ga = GA(firstGeneration, 40, 50, 20)
-    while ga.get_bestSchedule().get_finess() < 1 or ga.get_epoch() < 100:
-        ga.checkIfBetter()
-        print('k')
-        print(ga.get_bestSchedule().get_numbOfConflicts())
-        print('k')
-        print(ga.get_bestSchedule().get_finess())
-        print('-----------------------------------------------')
-        ga.crossOver()
-        ga.next_epoch()
-    print('*|*|*|*|*|*|*|*|*|*|*|*|')
-    print(ga.get_bestSchedule().get_finess())
-    print('*|*|*|*|*|*|*|*|*|*|*|*|')
+    #experiments are executed very long, uncomment next line to run experiments
+    #experiments(data)
 
-    ga.get_bestSchedule().print()
+    shedule = experiment(data, 50, 8/10, 20, 100)
+    shedule.print()
 
 

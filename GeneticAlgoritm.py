@@ -24,15 +24,10 @@ class GA:
     def checkIfBetter(self):
         for schedule in self.currentGeneration:
             schedule.calculate_fitness()
-            if schedule.get_finess() > self.bestSchedule.get_finess():
-                print('***************')
-                print(schedule.get_finess())
-                print('is bigger than')
-                print(self.bestSchedule.get_finess())
+            if schedule.get_fitness() > self.bestSchedule.get_fitness():
                 self.bestSchedule = schedule
-                print(self.get_bestSchedule().get_finess())
 
-    def get_scheduleFitness(self, schedule): return schedule.get_finess()
+    def get_scheduleFitness(self, schedule): return schedule.get_fitness()
 
     def mutate(self):
         availabilityFile = open('data/dostepnosci.json', "r", encoding="utf-8")

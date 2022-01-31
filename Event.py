@@ -17,8 +17,8 @@ class Event:
             return False
 
     def print(self):
-        print(str(self.student) + ", " + str(self.guide) + ", " + str(self.promoter) + ", " + str(self.reviewer) + ", " + str(self.memCom))
-        print(self.meetingTime)
+        print("numer studenta: " + str(self.student) + ", " + "numer przewodniczacego: " + str(self.guide) + ", numer promotora: " + str(self.promoter) + ", numer recenzenta: " + str(self.reviewer) + ", numer czlonka komisji: " + str(self.memCom[0]))
+        print("termin: " + self.meetingTime)
 
     def get_student(self): return self.student
     def get_promoter(self): return self.promoter

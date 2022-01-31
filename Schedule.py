@@ -15,7 +15,7 @@ class Schedule:
 
     def get_events(self): return self.events
     def get_numbOfConflicts(self): return self.numbOfConflicts
-    def get_finess(self): return self.fitness
+    def get_fitness(self): return self.fitness
     def get_numbOfEvents(self): return self.numbOfEvents
     def get_isFitnessChanged(self): return self.isFitnessChanged
 
@@ -37,16 +37,13 @@ class Schedule:
             promoter = event_i.get_promoter()
             if not event_i.checkIfHasTime(promoter, availability):
                 self.numbOfConflicts += 1
-                print('A')
             reviewer = event_i.get_reviewer()
             if not event_i.checkIfHasTime(reviewer, availability):
                 self.numbOfConflicts += 1
-                print('A')
             memCom = event_i.get_memCom()
             for mem in memCom:
                 if not event_i.checkIfHasTime(mem, availability):
                     self.numbOfConflicts += 1
-                    print('A')
 
             a = [promoter, reviewer, *memCom]
             seen = set()
@@ -57,12 +54,10 @@ class Schedule:
                 else:
                     seen.add(x)
             self.numbOfConflicts += len(dupes)
-            print('some B')
             for event_j in events:
                 if event_i.get_id() != event_j.get_id():
                     if event_j.get_meetingTime() == event_i.get_meetingTime():
                         self.numbOfConflicts += 2
-                        print('C')
         if self.numbOfConflicts > 0:
             fitness = 1 / (1.0 * self.numbOfConflicts)
             self.fitness = fitness
